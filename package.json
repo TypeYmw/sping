@@ -1,0 +1,37 @@
+{
+  "name": "schat",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.{js,jsx,vue,ts,tsx} --fix"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "pinia": "2.0.0-rc.10",
+    "unplugin-auto-import": "^0.11.2",
+    "vant": "^3.6.4",
+    "vite-plugin-windicss": "^1.8.8",
+    "vue": "^3.2.37",
+    "vue-global-api": "^0.4.1",
+    "vue-router": "^4.0.13",
+    "windicss": "^3.5.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.3",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.25.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "rollup": "^2.79.1",
+    "typescript": "^4.6.4",
+    "unplugin-vue-components": "^0.22.8",
+    "vite": "^3.1.0",
+    "vite-plugin-style-import": "^2.0.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
