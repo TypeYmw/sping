@@ -29,11 +29,9 @@ dependencies:
   pinia: 2.0.0-rc.10_bfjwoga25wxjazzogo7o372nwq
   unplugin-auto-import: 0.11.2
   vant: 3.6.4_vue@3.2.40
-  vite-plugin-windicss: 1.8.8_vite@3.1.6
   vue: 3.2.40
   vue-global-api: 0.4.1_vue@3.2.40
   vue-router: 4.1.5_vue@3.2.40
-  windicss: 3.5.6
 
 devDependencies:
   '@types/node': 18.8.3
@@ -48,7 +46,9 @@ devDependencies:
   unplugin-vue-components: 0.22.8_vue@3.2.40
   vite: 3.1.6
   vite-plugin-style-import: 2.0.0_vite@3.1.6
+  vite-plugin-windicss: 1.8.8_vite@3.1.6
   vue-tsc: 0.40.13_typescript@4.8.4
+  windicss: 3.5.6
 
 packages:
 
@@ -801,7 +801,7 @@ packages:
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
-    dev: false
+    dev: true
 
   /@windicss/plugin-utils/1.8.8:
     resolution: {integrity: sha512-a+npbTKmdrAvnMqzVJvyPa29xyNcPaSkt6qQpgWY9m0WyVlYd9BM8V0+cbqt279fTlvlaZpUs9dqmilB1PUH6g==}
@@ -815,7 +815,7 @@ packages:
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
-    dev: false
+    dev: true
 
   /acorn-jsx/5.3.2_acorn@8.8.0:
     resolution: {integrity: sha1-ftW7VZCLOy8bxVxq8WU7rafweTc=}
@@ -1758,7 +1758,7 @@ packages:
   /jiti/1.16.0:
     resolution: {integrity: sha512-L3BJStEf5NAqNuzrpfbN71dp43mYIcBUlCRea/vdyv5dW/AYa1d4bpelko4SHdY3I6eN9Wzyasxirj1/vv5kmg==}
     hasBin: true
-    dev: false
+    dev: true
 
   /js-sdsl/4.1.5:
     resolution: {integrity: sha512-08bOAKweV2NUC1wqTtf3qZlnpOX/R2DU9ikpjOHs0H+ibQv3zpncVQg6um4uYtRtrwIX8M4Nh3ytK4HGlYAq7Q==}
@@ -1809,7 +1809,7 @@ packages:
 
   /kolorist/1.6.0:
     resolution: {integrity: sha512-dLkz37Ab97HWMx9KTes3Tbi3D1ln9fCAy2zr2YVExJasDRPGRaKcoE4fycWNtnCAJfjFqe0cnY+f8KT2JePEXQ==}
-    dev: false
+    dev: true
 
   /levn/0.4.1:
     resolution: {integrity: sha1-rkViwAdHO5MqYgDUAyaN0v/8at4=}
@@ -2439,7 +2439,7 @@ packages:
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
-    dev: false
+    dev: true
 
   /vite/3.1.6:
     resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
@@ -2560,7 +2560,7 @@ packages:
     resolution: {integrity: sha512-P1mzPEjgFMZLX0ZqfFht4fhV/FX8DTG7ERG1fBLiWvd34pTLVReS5CVsewKn9PApSgXnVfPWwvq+qUsRwpnwFA==}
     engines: {node: '>= 12'}
     hasBin: true
-    dev: false
+    dev: true
 
   /word-wrap/1.2.3:
     resolution: {integrity: sha1-YQY29rH3A4kb00dxzLF/uTtHB5w=}
